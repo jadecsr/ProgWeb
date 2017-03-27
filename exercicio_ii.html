@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Instituto de Computação</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<h1>Formulário de Contato</h1>
+	<p>Por favor, preencha o formulário abaixo e clique no botão Enviar Mensagem. Agradecemos por seu contato.</p>
+	<form id="contato" method="POST">
+	<fieldset>
+		<legend>Dados Básicos</legend>
+		<label for="nome">Nome: </label>
+		<input type="text" name="nome"> <br>
+		<label for="mail">E-mail:</label>
+		<input type="email" name="mail" placeholder="seunome@dominio.com.br"> <br>
+		<label for="website">Website: </label>
+		<input type="text" name="website" value="http://">
+	</fieldset>
+	<fieldset>
+		<legend>Seu curso no Instituto de Computação</legend>
+		<input type="radio" name="curso" value="cc"> Ciência da Computação <br>
+		<input type="radio" name="curso" value="si"> Sistemas de Informação <br>
+		<input type="radio" name="curso" value="cc"> Engenharia da Computação <br>
+	</fieldset>
+	<fieldset>
+		<legend>Assinale as linguagens já usadas por você: </legend>
+		Java <input type="checkbox" name="ling" id="java"> 
+		C <input type="checkbox" name="ling" id="c"> 
+		C++ <input type="checkbox" name="ling" id="cmaismais"> 
+		Perl <input type="checkbox" name="ling" id="perl"> 
+		Python <input type="checkbox" name="ling" id="python"> 
+		Javascript <input type="checkbox" name="ling" id="javascript"> 
+	</fieldset>
+	<fieldset>
+		<legend>Dados Complementares</legend>
+		Cor Favorita: <input type="color" name="cor" value="black"> <br>
+		Data de Nascimento: <input type="date" name="nascimento" value="mm/dd/yyyy"> <br>
+		Ano de Entrada em Seu Curso do Icomp: <input type="number" name="entrada" min="2001" max="2017" step="1" value="2001"> <br>
+		Nota para este site: <input type="range" name="nota" min="0" max="10">
+	</fieldset>
+	<fieldset>
+		<legend>Área de Atuação</legend>
+		<select name="area" id="area">
+			<option value="1">Banco de Dados</option>
+			<option value="2">Educação a Distância</option>
+			<option value="3">Engenharia de Software</option>
+			<option value="4">Otimização</option>
+			<option value="5">Programação Web</option>
+			<option value="6">Recuperação de Informação</option>
+			<option value="7">Redes de Computadores</option>
+		</select>
+	</fieldset>
+	<fieldset>
+		<legend>Submeta seu currículo vitae</legend>
+		<input type="file" name="cv">
+	</fieldset>
+	<fieldset>
+		<legend>Digite sua Mensagem: </legend>
+		<textarea name="comentario" rows="5" cols="40"></textarea>
+	</fieldset> <br>
+	<input type="reset" value="Resetar Dados">
+	<input type="submit" name="submeter" value="Enviar Mensagem">
+	</form>
+</body>
+</html>
