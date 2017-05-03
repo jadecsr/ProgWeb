@@ -1,0 +1,6 @@
+Os quatro erros sintáticos são:
+1. Não há a tag <html> e </html> indicando o início e fim do código html.
+2. A tag <body> deve vir depois da tag <head> e a tag <head> deve ser fechada antes de <body> iniciar.
+3. A tag <head> serve para, entre outras coisas, colocar as configurações da página html e não conteúdo, como está presente no código (pelas tags <h1> e <p>.
+4. Não existe a tag <comment>. Para inserir comentários em html deve-se usar <!-- e -->.
+
