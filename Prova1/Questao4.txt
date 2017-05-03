@@ -1,0 +1,19 @@
+Em javascript, uma variável pode ser utilizada sem ser declarada. Além disso, a tipagem é dinâmica. Hoisting é uma formalização do javascript em colocar as declarações no topo do escopo, seja ele um script todo ou uma função. Isso é necessário para saber se as variáveis são globais ou locais e, assim, é possível evitar erros semânticos.
+
+Um exemplo de código que explore isso é:
+
+var a = 4;
+var b = 5;
+
+output = get.ElementById("resultado");
+output.innerHTML = a + b;
+
+--> O código acima mostrará a concatenação de a e b, ou seja, o número 45. Mas, se não declararmos o b no início juntamente com o a, b terá o valor de "undefined", mesmo que b seja declarado depois, como no exemplo abaixo.
+
+var a = 4;
+
+output = get.ElementById("resultado");
+output.innerHTML = a + b;
+
+var b = 5;
+
