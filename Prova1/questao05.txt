@@ -1,0 +1,57 @@
+commit 4cd18f9fe03886a6ced0107d26275c9722260f4d
+Author: Jade <jadecsr@gmail.com>
+Date:   Wed May 3 08:39:33 2017 -0400
+
+    Questão 2 - Código Javascript
+
+commit f461b8a5d7feeaf58762913a0ce66d715963b67b
+Author: Jade <jadecsr@gmail.com>
+Date:   Wed May 3 08:28:05 2017 -0400
+
+    Prova 1 - Questão 1
+
+commit c1fffd4b2c2913561aee43e0e9e0602a6c44aff0
+Author: Jade <jadecsr@gmail.com>
+Date:   Wed Apr 26 09:23:12 2017 -0400
+
+    Anotacoes da aula de 26/04
+
+commit 1c262e125b4b20b9b057d72efd1f4413c981ff55
+Author: Jade <jadecsr@gmail.com>
+Date:   Wed Apr 26 08:15:03 2017 -0400
+
+    Exercício 1 de Javascript - Tabuada
+
+commit 4c4e34b20e6de2006feb88a4fe095c8342cc5a2b
+Author: Jade <jadecsr@gmail.com>
+Date:   Mon Apr 24 09:01:19 2017 -0400
+
+    Exercicio 2 de Javascript - Usando a DOM
+
+commit bd6f55649234348455712a730d99472737437802
+Author: Jade <jadecsr@gmail.com>
+Date:   Mon Apr 24 08:21:50 2017 -0400
+
+    Exercicio 1 e 2 de CSS
+
+commit 8c03d1f9959ab0eefd71356dba3656fb300c572c
+Author: Jade <jadecsr@gmail.com>
+Date:   Mon Apr 10 09:38:26 2017 -0400
+
+    Terceiro exercício de CSS3 - Posicionamento relativo
+
+commit 26b02c13a6d4036c9dc74db1dc1e81649112093a
+Merge: 98b189a 8d239a4
+Author: Jade Rodrigues <jadecsr@gmail.com>
+Date:   Mon Mar 27 09:29:31 2017 -0400
+
+    Merge branch 'master' of https://github.com/jadecsr/ProgWeb
+
+commit 98b189a37969822d03c7ece3e0c5de75a4eb5d8d
+Author: Jade Rodrigues <jadecsr@gmail.com>
+Date:   Mon Mar 27 09:01:37 2017 -0400
+
+
+Respostas:
+a) O comando git status serve pra mostrar o estado dos arquivos no diretório local de trabalho. Os arquivos que já haviam sido adicionados ao repositório antes e foram modificados, ficam numa lista de "modified". Arquivos no diretório local que não foram adicionados ao repositório ainda, são mostrados como arquivos não monitorados. Arquivos que foram adicionados mas ainda não tiveram commit são mostrados em verde como "new file".
+b)O arquivo .gitignore serve para indicar que arquivos você deseja que o git não monitore. Ao usar o comando git status, os arquivos que constam no .gitignore não serão mostrados como arquivos não monitorados.
