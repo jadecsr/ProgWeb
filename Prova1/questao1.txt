@@ -4,3 +4,5 @@ Os quatro erros sintáticos são:
 3. A tag <head> serve para, entre outras coisas, colocar as configurações da página html e não conteúdo, como está presente no código (pelas tags <h1> e <p>.
 4. Não existe a tag <comment>. Para inserir comentários em html deve-se usar <!-- e -->.
 
+Nota: 2.0
+Todos os erros foram reportados corretamente.
