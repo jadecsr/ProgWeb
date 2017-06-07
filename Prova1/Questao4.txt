@@ -1,3 +1,6 @@
+Nota: 2.0
+Descrição de hoisting e código corretos.
+
 Em javascript, uma variável pode ser utilizada sem ser declarada. Além disso, a tipagem é dinâmica. Hoisting é uma formalização do javascript em colocar as declarações no topo do escopo, seja ele um script todo ou uma função. Isso é necessário para saber se as variáveis são globais ou locais e, assim, é possível evitar erros semânticos.
 
 Um exemplo de código que explore isso é:
