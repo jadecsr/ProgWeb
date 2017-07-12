@@ -1,0 +1,33 @@
+#tabuleiro {
+    position: absolute;
+    width: 100%; 
+}
+
+#score {
+    width: 200px;
+    height: 100px;
+    background-color: #667762 !important;
+    border: 2px solid #D8F2C3;
+    text-align: center;
+    font-size: 2em;
+    color: #fff;
+    float : left;
+}
+
+table {
+    width: 360px;
+    height: 600px;
+    background-color:#2B3F45;
+    margin: 0 auto;
+    border: 4px solid darkgrey;
+}
+
+td {
+	border: 0.2px solid black;
+	width: 13px;
+	height: 13px;
+}
+
+tr {
+	border: 0.2px solid black;
+}
