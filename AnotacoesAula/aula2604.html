@@ -1,0 +1,37 @@
+//ctrl shift j abre o console
+<html>
+<head>
+  <meta charset="utf-8">
+  <title> Instituto de Computação </title>
+    <style media = "screen">
+    .mensagens {
+      background-color: lightgrey;
+      height: 300px;
+      width: 300px;
+      margin-bottom: 10px;
+      overflow: auto;
+    }
+    </style>
+</head>
+<body>
+    <div class="mensagens">
+    </div>
+    <form class="" name="mensagem">
+      <input type="text" name="texto" value="">
+      <button type="button" name="botao">OK</button>
+    </form>
+    <script type="text/javascript">
+      botao = document.mensagem.botao;
+      botao.onclick = function () {
+        mensagem = document.mensagem.texto.value;
+        console.log(mensagem);
+        document.mensagem.texto.value = "";
+        newmsg = document.createElement("div");
+        newmsg.innerHTML = mensagem;
+        mensagens = document.querySelector(".mensagens"); //Essa variavel vai conter referencia a todos os objetos que possuem a classe mensagens
+        mensagens.appendChild(newmsg);
+        document.mensagem.texto.focus();
+      }
+    </script>
+</body>
+</html>

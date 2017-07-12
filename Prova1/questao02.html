@@ -1,0 +1,26 @@
+<!--
+Nota: 2.0
+Código implementado corretamente
+-->
+
+<html>
+<head>
+  <meta charset="utf-8" >
+  <title> Questão 2 </title>
+</head>
+<body>
+  <form name="esfera" action="questao02.html" method="post">
+    Raio da esfera: <input type="text" name="raio" value = "0"><br>
+    Área: <input type="text" name="area" value = "0"><br>
+    Volume: <input type="text" name="volume" value = "0"><br>
+    <input type="button" name="botao" value="Calcular!">
+  </form>
+  <script type="text/javascript">
+    document.esfera.botao.onclick = function () {
+      raio = document.esfera.raio.value;
+      document.esfera.area.value = (Math.PI * raio * raio * 4).toFixed(2);
+      document.esfera.volume.value = ((4 * Math.PI * raio* raio * raio)/3).toFixed(2);
+    }
+  </script>
+</body>
+</html>
